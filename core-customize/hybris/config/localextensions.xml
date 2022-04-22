@@ -180,6 +180,8 @@
 
 <!-- Sample Extensions -->
     <extension name='spartacussampledata' />
+    
+    <extension name='training' />
 <!--<extension name='kiwi' />
     <extension name='tiger'/> -->
 
