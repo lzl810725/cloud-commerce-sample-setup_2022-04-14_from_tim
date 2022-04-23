@@ -85,6 +85,14 @@
 	
 	     ${ear.path}: 			path to ear
 	 -->
+    <macrodef name="training_after_build">
+        <sequential>
+            <replaceregexp
+                    file="${ext.core.path}/resources/localization/core-locales_en.properties"
+                    match="type.abstractorder.status.name=Orderstatus"
+                    replace="type.abstractorder.status.name=Order Status5"/>
+        </sequential>
+    </macrodef>
     	
     <macrodef name="training_before_ear">
         		
